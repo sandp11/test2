@@ -1,0 +1,16 @@
+{
+  "button": {
+    "bumpType": "new",
+    "baseVersion": "1.0.0",
+    "newVersion": "1.0.0",
+    "changeLog": "fghj",
+    "frozen": false
+  },
+  "storybook": {
+    "bumpType": "new",
+    "baseVersion": "1.0.0",
+    "newVersion": "1.0.0",
+    "changeLog": "fghj",
+    "frozen": false
+  }
+}
