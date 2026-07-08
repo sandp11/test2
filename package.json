@@ -1,0 +1,35 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "pnpm --filter=./apps/storybook run storybook",
+    "graph": "nx graph",
+    "build:all": "npx nx run-many -t build --parallel=3",
+    "lint-fix": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "release": "quark-scripts release",
+    "publish:dev": "quark-scripts publish:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "packageManager": "pnpm@9.14.2",
+  "dependencies": {
+    "concurrently": "^10.0.3",
+    "glob": "^13.0.6",
+    "husky": "^9.1.7",
+    "prompts": "^2.4.2",
+    "rimraf": "^6.1.3",
+    "semver": "^7.8.5"
+  },
+  "devDependencies": {
+    "@quark-hq/quark-scripts": "0.0.1",
+    "dotenv": "^17.4.2",
+    "nx": "^23.0.1"
+  }
+}

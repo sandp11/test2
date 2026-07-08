@@ -1,0 +1,17 @@
+node_modules
+dist
+.DS_Store
+.env
+.next
+logs
+coverage
+storybook-static
+output.json
+*.log
+.yalc
+.nx/cache
+.nx/workspace-data
+yalc.lock
+.npmrc
+
+*storybook.log
